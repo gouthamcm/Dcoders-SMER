@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/view_feedback"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="View Feedback" />
+    <item
+        android:id="@+id/dispenser"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Dispenser"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+</menu>

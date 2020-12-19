@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:text="WARDS"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/b1"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:text="MEDICAL EQUIPMENTS"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/b1"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:text="CLINICAL LAB"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/b2"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/b3"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:text="PHARMACY"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="220dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/b3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:gravity="center"
+
+        android:text="PHYSIOTHERAPY CLINIC"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+</RelativeLayout>
